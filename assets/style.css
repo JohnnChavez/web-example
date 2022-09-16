@@ -232,26 +232,11 @@ main {
   color: var(--secondary-blue);
   font-weight: bold;
   line-height: 2.3rem;
-  /*   position: absolute;
-  left: 74px;
-  top: 806px; */
 }
-.currency-table--date2 {
-  width: 190px;
-  min-width: 200px;
-  height: 30px;
-  margin: 0 auto;
-  margin-top: 15px;
-  padding: 8px;
-  background-color: #e7f5ff;
-  border-radius: 8px;
+.color-background {
+  background-color: var(--soft-blue);
 }
-.currency-table--date2 p {
-  color: var(--warm-black);
-  font-size: 1.2rem;
-  font-weight: 300;
-  line-height: 1.5rem;
-}
+
 .main-product-detail {
   position: relative;
   width: 100%;
@@ -310,7 +295,6 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .clock-icon {
   background-image: url("./ic/clock.svg");
 }

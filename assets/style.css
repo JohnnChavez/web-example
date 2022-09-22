@@ -24,6 +24,7 @@
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 header {
   position: relative;
@@ -322,6 +323,7 @@ main {
 }
 .comodin-img {
   width: 100%;
+  min-width: 320px;
   height: 50vh;
   background-image: url("https://i.ibb.co/H7PhtNZ/bitcoinbaby2x.jpg");
   background-position: center;
@@ -329,9 +331,51 @@ main {
   background-repeat: no-repeat;
   text-align: center;
 }
+/* No mucho me gusta la posicion del texto */
 .comodin-img h2 {
   padding-top: 56px;
   font-size: 2.4rem;
   font-weight: bold;
   color: var(--just-white);
 }
+.main-plans-container {
+}
+/* .main-recomendation--container {
+  width: 100%;
+  height: 500px;
+  background-color: #e5e5e5;
+  text-align: center;
+}
+.main-recomendation--container h2 {
+  padding-top: 64px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+}
+.main-recomendation--container p {
+  padding-top: 24px;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  color: #757575;
+  margin: 0 1.7rem;
+}
+
+.footer-container {
+  width: 100%;
+  height: 150px;
+  background-color: var(--bitcoin-orange);
+}
+.footer-container--list {
+  margin-left: 64px;
+  list-style: none;
+  padding-top: 40px;
+}
+.footer-container--list li {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--just-white);
+  padding-bottom: 8px;
+}
+ */

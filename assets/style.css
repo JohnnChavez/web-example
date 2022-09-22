@@ -339,29 +339,89 @@ main {
   color: var(--just-white);
 }
 .main-plans-container {
-}
-/* .main-recomendation--container {
   width: 100%;
-  height: 500px;
-  background-color: #e5e5e5;
+  min-width: 320px;
+  padding-bottom: 70px;
   text-align: center;
 }
-.main-recomendation--container h2 {
-  padding-top: 64px;
+.plans--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.plans--title h2 {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
+  color: var(--black);
+  padding-top: 64px;
 }
-.main-recomendation--container p {
+.plans--title p {
   padding-top: 24px;
   font-size: 1.4rem;
-  line-height: 1.8rem;
   font-weight: 500;
+  line-height: 1.8rem;
   color: #757575;
-  margin: 0 1.7rem;
 }
-
-.footer-container {
+.plans-container--card {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 15px;
+  background-color: var(--just-white);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.recomended {
+  position: absolute;
+  background-color: var(--bitcoin-orange);
+  padding: 8px;
+  border-radius: 8px;
+  color: var(--just-white);
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  left: calc(50% - 50px);
+  top: -15px;
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+.plan-info-container {
+  padding-top: 31px;
+}
+.plan-info-container .plan-card--title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #000000;
+}
+.plan-info-container .plan-card--price {
+  font-size: 5.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 6.2rem;
+  color: #000000;
+}
+.plan-info-container .plan-card--price sup {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: #363636;
+}
+.plan-info-container .plan-card--saving {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.45rem;
+  font-family: "Inter", sans-serif;
+  color: #757575;
+  padding: 0 16px;
+}
+/* .footer-container {
   width: 100%;
   height: 150px;
   background-color: var(--bitcoin-orange);

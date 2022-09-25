@@ -368,17 +368,18 @@ main {
 .plans-container--slider {
   display: flex;
   gap: 20px;
-  height: 316px;
+  height: 317px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
+  margin-top: -30px;
 }
 .plans-container--card {
   position: relative;
   scroll-snap-align: center;
   width: 70%;
   min-width: 190px;
-  max-width: 300px;
+  max-width: 250px;
   height: 250px;
   margin: 50px auto 0;
   padding: 0 15px;

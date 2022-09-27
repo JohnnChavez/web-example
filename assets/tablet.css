@@ -12,3 +12,9 @@
 .plans-container--slider {
   justify-content: center;
 }
+.main-currency-table .currency-table--title2 {
+  margin-top: 0;
+}
+.plans-container--card {
+  margin: 50px 25px 0;
+}

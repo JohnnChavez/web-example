@@ -134,6 +134,14 @@ main {
   color: #757575;
   margin-bottom: 30px;
 }
+.main-tables-container {
+  display: flex;
+  gap: 20px;
+  height: 370px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
 
 .main-currency-table {
   width: 70%;
@@ -142,9 +150,11 @@ main {
   height: 360px;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
+  scroll-snap-align: center;
 }
 .main-currency-table .currency-table--title {
   margin-bottom: 15px;
+  margin-top: 15px;
   font-size: 1.8rem;
   color: var(--bitcoin-orange);
   font-weight: bold;
@@ -169,7 +179,7 @@ main {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
-  color: var(--grey);
+  color: #000000ba;
   background-color: var(--just-white);
 }
 .currency-table--container .table__top-left {
@@ -441,6 +451,7 @@ main {
   border-radius: 4px;
   margin-top: 15px;
   font-family: "DM Sans", sans-serif;
+  cursor: pointer;
 }
 .plan-card--call span {
   display: inline-block;

@@ -12,5 +12,24 @@
 .comodin-img {
   display: flex;
   justify-content: center;
-  height: 75vh;
+  height: 60vh;
 }
+.main-currency-table .currency-table--title2 {
+  margin-top: 0;
+}
+.main-tables-container {
+  height: 390px;
+  overflow-x: hidden;
+}
+footer .left ul {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+/* footer .right {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+} */

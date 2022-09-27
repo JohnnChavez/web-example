@@ -152,6 +152,12 @@ main {
   font-family: "Inter", sans-serif;
   scroll-snap-align: center;
 }
+.position-table1 {
+  margin-left: 45px;
+}
+.position-table2 {
+  margin-right: 45px;
+}
 .main-currency-table .currency-table--title {
   margin-bottom: 15px;
   margin-top: 15px;

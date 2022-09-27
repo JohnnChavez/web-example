@@ -1,0 +1,16 @@
+.plans-container--slider {
+  justify-content: center;
+  overflow-x: hidden;
+}
+.comodin-img h2 {
+  padding: 0;
+  margin: auto 0;
+  font-size: 10rem;
+  font-weight: bold;
+  color: var(--just-white);
+}
+.comodin-img {
+  display: flex;
+  justify-content: center;
+  height: 75vh;
+}
